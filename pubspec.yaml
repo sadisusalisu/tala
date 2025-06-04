@@ -1,0 +1,36 @@
+name: tala
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0  # Updated to latest version
+  shared_preferences: ^2.2.0
+  cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.8
+  audioplayers: ^5.1.0
+  just_audio: ^0.9.36       # Consider updating to latest
+  provider: ^6.0.5
+  flutter_riverpod: ^2.4.9  # Consider adding for state management
+  gap: ^2.0.0               # For better spacing control
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
